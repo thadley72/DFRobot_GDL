@@ -26,27 +26,27 @@ typedef struct {
 	uint8_t   yAdvance;    ///< Newline distance (y axis)
 } GFXfont;
 
-#include "Fonts/FreeMono9pt7b.h"
-#include "Fonts/FreeMono12pt7b.h"//正常字体
-#include "Fonts/FreeMono18pt7b.h"//正常字体
-#include "Fonts/FreeMono24pt7b.h"//正常字体
-#include "Fonts/FreeMonoBold12pt7b.h"
-#include "Fonts/FreeMonoBoldOblique12pt7b.h"
-#include "Fonts/FreeMonoOblique12pt7b.h"
-#include "Fonts/FreeSans12pt7b.h"
-#include "Fonts/FreeSansBold9pt7b.h"
-#include "Fonts/FreeSansBold12pt7b.h"
-#include "Fonts/FreeSansBoldOblique12pt7b.h"
-#include "Fonts/FreeSansOblique12pt7b.h"
-#include "Fonts/FreeSerif12pt7b.h"
-#include "Fonts/FreeSerifBold12pt7b.h"
-#include "Fonts/FreeSerifBoldItalic12pt7b.h"
-#include "Fonts/FreeSerifItalic12pt7b.h"
-#include "Fonts/FreeMonoBoldOblique9pt7b.h"
-#include "Fonts/FreeSans18pt7b.h"
+// #include "Fonts/FreeMono9pt7b.h"
+// #include "Fonts/FreeMono12pt7b.h"//正常字体
+// #include "Fonts/FreeMono18pt7b.h"//正常字体
+// #include "Fonts/FreeMono24pt7b.h"//正常字体
+// #include "Fonts/FreeMonoBold12pt7b.h"
+// #include "Fonts/FreeMonoBoldOblique12pt7b.h"
+// #include "Fonts/FreeMonoOblique12pt7b.h"
+// #include "Fonts/FreeSans12pt7b.h"
+// #include "Fonts/FreeSansBold9pt7b.h"
+// #include "Fonts/FreeSansBold12pt7b.h"
+// #include "Fonts/FreeSansBoldOblique12pt7b.h"
+// #include "Fonts/FreeSansOblique12pt7b.h"
+// #include "Fonts/FreeSerif12pt7b.h"
+// #include "Fonts/FreeSerifBold12pt7b.h"
+// #include "Fonts/FreeSerifBoldItalic12pt7b.h"
+// #include "Fonts/FreeSerifItalic12pt7b.h"
+// #include "Fonts/FreeMonoBoldOblique9pt7b.h"
+// #include "Fonts/FreeSans18pt7b.h"
 
-#include "Fonts/FreeSans9pt7b.h"
-#include "Fonts/FreeSerif9pt7b.h"
+// #include "Fonts/FreeSans9pt7b.h"
+//#include "Fonts/FreeSerif9pt7b.h"
 
 
 #endif // _GFXFONT_H_
