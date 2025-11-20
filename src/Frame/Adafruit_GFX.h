@@ -347,8 +347,10 @@ class GFXcanvas16 : public Adafruit_GFX {
   */
   /**********************************************************************/
   uint16_t *getBuffer(void) const { return buffer; }
- private:
-  uint16_t *buffer;
+ protected:
+  static uint16_t *buffer;
+  static uint16_t buffer_w,buffer_h;
+  uint16_t *getAllocatedBuffer();
 };
 
 #endif // _ADAFRUIT_GFX_H
