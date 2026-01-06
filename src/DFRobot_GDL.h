@@ -243,6 +243,7 @@ public:
   void zoomPicture1(void *picturre,uint16_t _width,uint16_t _height);
   void zoomPicture2(void *picturre,uint16_t _width,uint16_t _height);
   void drawPIC(int16_t x,int16_t y,uint16_t w ,uint16_t h,uint8_t * rawBuf);
+  void scroll(uint16_t y);
 protected:
   /**
    * @fn initDisplay

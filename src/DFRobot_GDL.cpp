@@ -372,3 +372,13 @@ void DFRobot_GDL::zoomPicture2(void *picturre,uint16_t _width,uint16_t _height){
         sendColor((uint8_t *)pic,480);
 }
 }
+
+void DFRobot_GDL::scroll(uint16_t y) {
+    // sendCommand(0x33);
+    // sendData16(0);
+    // sendData16(240);
+    // sendData16(0);
+
+    sendCommand(0x37);
+    sendData16(y);
+  }
